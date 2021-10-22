@@ -25,6 +25,7 @@
                         <table class="table tabl-striped table-bordered border-success table-striped table-hover">
                             <thead>
                                 <tr>
+                                 <!-- Datos requeridos -->
                                     <th>Primer Nombre</th>
                                     <th>Apellido</th>
                                     <th>Correo</th>
@@ -40,8 +41,10 @@
                                     <td>{{$student->email}}</td>
                                     <td>{{$student->phone}}</td>
                                     <td>
+                                     <!-- Boton de editar -->
                                         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateStudentMo" wire:click.prevent="edit({{$student->id}})">Editar</button>
 
+                                         <!-- Boton de eliminar -->
                                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#deleteStudentModal" wire:click.prevent="edit({{$student->id}})">Eliminar</button>
                                     </td>
                                 </tr>
