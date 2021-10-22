@@ -1,3 +1,4 @@
+<!-- Modal principal donde se opserva todo el crud de estudiante -->
 <div>
     @include('livewire.create')
     @include('livewire.update')

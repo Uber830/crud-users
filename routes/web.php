@@ -17,5 +17,6 @@ use App\Http\Livewire\Students;
 Route::get('/', function () {
     return view('welcome');
 });
-
+ 
+/**Ruta de acceso al crud */
 Route::get('/students', Students::class);
