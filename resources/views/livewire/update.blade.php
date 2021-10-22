@@ -27,6 +27,7 @@
                     </div>
                 </form>
             </div>
+            <!--Footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal" wire:click.prevent="update()">Actualizar Estudiante</button>

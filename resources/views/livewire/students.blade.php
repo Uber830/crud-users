@@ -19,6 +19,7 @@
                             </button>
                         </h3>
                     </div>
+                       <!-- Cuerpo de la tabla -->
                     <div class="card-body">
                         <table class="table tabl-striped table-bordered border-success table-striped table-hover">
                             <thead>
